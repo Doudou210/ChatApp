@@ -1,7 +1,8 @@
 import "../../css/Sidebar.css";
 import Avatar from "@mui/material/Avatar";
 import IconButton from "@mui/material/IconButton";
-import { DonutLarge, Chat, MoreVert, SearchOutlined } from "@mui/icons-material";
+import { Chat, DonutLarge, MoreVert, SearchOutlined } from "@mui/icons-material";
+import SideBarChat from "../sideBarChat/SideBarChat";
 
 export default function Sidebar() {
     return(
@@ -30,6 +31,7 @@ export default function Sidebar() {
             <div className='sidebar__chats'>
 
             </div>
+            <SideBarChat/>
         </div>
     )
 };
